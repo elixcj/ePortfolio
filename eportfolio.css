@@ -1,0 +1,206 @@
+body    {
+    background-color: #62040F;
+    margin:0;
+    padding:0;
+    font-family: "Caveat Brush", cursive;
+}
+
+#container  {
+    width: 85%;
+    background-color: #EEF4ED;
+    padding-top:15px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    height:600px;
+    max-height:800px;
+}
+header  {
+   /* width: 85%;*/
+    background:#FF9966;
+    padding-top: 2px;
+    padding-bottom:2px;
+}
+header p    {
+     font-size: 24pt;
+     font-family: arial, sans-serif;
+     font-weight: bold;
+     text-align: center;
+}
+ aside  {
+     width:25%;
+     float:left;
+     padding-left:10px;
+     font-family: "Quicksand", sans-serif;
+     font-size: 14pt;
+     text-align: right;
+ }
+
+ul  {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #F7B5B8;
+}
+ul li   {
+    float:left;
+    font-family: "Bodoni Moda", serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size:14pt;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav {
+    margin-top
+}
+main    {
+    width:65%;
+    float: left;
+    font-family: "Quicksand", sans-serif;
+    font-size:14pt;
+}
+
+main p  {
+    font-family: "Quicksand", sans-serif;
+    font-size: 14pt;
+    padding-left: 20px;
+    /*padding-right: 5px;*/
+    text-align: justify;
+
+}
+
+.bold   {
+    font-weight:bold;
+}
+main #welcome    {
+      font-family: "Bodoni Moda", serif;
+      font-size:30pt;
+      text-align:center;
+}
+.bold   {
+    font-weight:bold;
+    font-size: 16pt;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+}
+footer  {
+    background-color: black;
+    clear: both;
+    height: 50px;
+    padding-top: 20px;
+    color:white;
+    font-size:14pt;
+    text-align:center;
+    font-family: "Quicksand", sans-serif;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.passero-one-regular {
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.caveat-brush-regular {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.kavoon-regular {
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.henny-penny-regular {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-grotesk-<uniquifier> {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.orbitron-<uniquifier> {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.playwrite-pe-<uniquifier> {
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}.homemade-apple-regular {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bodoni-moda-<uniquifier> {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}.forum-regular {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quicksand-<uniquifier> {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.jura-<uniquifier> {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merienda-<uniquifier> {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
