@@ -12,7 +12,7 @@ body    {
     margin-left:auto;
     margin-right:auto;
     margin-top:0;
-    height:600px;
+    height:700px;
     max-height:800px;
 }
 header  {
@@ -92,15 +92,18 @@ main #welcome    {
     text-transform: uppercase;
 }
 footer  {
+    position:fixed;
+    bottom:0;
+    width: 85%;
     background-color: black;
     clear: both;
-    height: 50px;
+    height: 55px;
     padding-top: 20px;
     color:white;
     font-size:14pt;
     text-align:center;
     font-family: "Quicksand", sans-serif;
-    vertical-align: middle;
+   /* vertical-align: text-top; */
 }
 .contact {
 max-width: 600px;
@@ -139,9 +142,52 @@ padding: 10px;
 font-size: 14px;
 }
 }
+ul.unique {
+    font-family: "Quicksand", sans-serif;
+    float:none;
+    font-size:14pt;
+    font-weight:normal;
+    background-color:transparent;
+    display: block;
+    list-style-type:square;
+    padding-left:25px;
+}
 
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
 
+.about {
+padding: 20px;
+text-align: center;
+}
+.profile-img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+nav ul {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
 
+.about {
+padding: 10px;
+}
+
+.profile-img {
+width: 80%;
+}
+}
+.about {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 
 
